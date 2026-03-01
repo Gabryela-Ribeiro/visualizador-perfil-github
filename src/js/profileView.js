@@ -20,5 +20,12 @@ export function renderProfile(userData, container) {
             <span>${userData.following}</span>
         </div>
     </div>
+
+    <div class="profile-repositories">
+        <h2>Repositórios</h2>
+        <div class="repositories">
+            ${repositoriesHTML}
+        </div>
+    </div>
   `;
 }
